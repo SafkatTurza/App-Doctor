@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:background="#0e0600">
 
     <TextView
@@ -24,6 +24,28 @@
     <EditText
         android:id="@+id/nameET"
         android:layout_width="250dp"
+        android:layout_height="67dp"
+        android:layout_weight="2"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:fontFamily="@font/alice"
+        android:textColor="@color/background_light"
+        android:background="@drawable/edittext_border"
+        android:padding="4dp"
+        />
+
+    <TextView
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/details"
+        android:textColor="@color/background_light"
+        android:textSize="20sp"
+        app:fontFamily="@font/abhaya_libre"/>
+
+    <EditText
+        android:id="@+id/detailsET"
+        android:layout_width="253dp"
         android:layout_height="67dp"
         android:layout_weight="2"
         android:inputType="text"
