@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="4dp"
+    android:orientation="vertical"
+    android:background="#076455"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="3"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="12dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:shadowColor="#560353"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"
+            android:text="@string/name"
+            android:textColor="@color/background_light"
+            android:textSize="20sp"
+            app:fontFamily="@font/abhaya_libre"
+            />
+
+        <EditText
+            android:id="@+id/nameET"
+            android:layout_width="250dp"
+            android:layout_height="67dp"
+            android:layout_weight="2"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:fontFamily="@font/alice"
+            android:textColor="@color/background_light"
+            android:background="@drawable/edittext_border"
+            android:padding="4dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_custom_background"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="104dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/details"
+            android:textColor="@color/background_light"
+            android:textSize="20sp"
+            app:fontFamily="@font/abhaya_libre"/>
+
+        <EditText
+            android:id="@+id/detailsET"
+            android:layout_width="253dp"
+            android:layout_height="67dp"
+            android:layout_weight="2"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:fontFamily="@font/alice"
+            android:textColor="@color/background_light"
+            android:background="@drawable/edittext_border"
+            android:padding="4dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_custom_background"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="196dp"
+        android:layout_marginBottom="10dp">
+
+
+        <TextView
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/appointment_time"
+            android:textColor="@color/background_light"
+            android:textSize="17sp"
+            app:fontFamily="@font/abhaya_libre"
+            />
+
+        <EditText
+            android:id="@+id/appointmentET"
+            android:layout_width="254dp"
+            android:layout_height="67dp"
+            android:layout_weight="2"
+            android:inputType="text"
+            android:textSize="20sp"
+            app:fontFamily="@font/alice"
+            android:textColor="@color/background_light"
+            android:background="@drawable/edittext_border"
+            android:padding="4dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="287dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/phone"
+            android:textColor="@color/background_light"
+            android:textSize="20sp"
+            app:fontFamily="@font/abhaya_libre"
+            />
+
+        <EditText
+            android:id="@+id/phoneET"
+            android:layout_width="253dp"
+            android:layout_height="67dp"
+            android:layout_weight="2"
+            android:inputType="text"
+            app:fontFamily="@font/alice"
+            android:textSize="20sp"
+            android:textColor="@color/background_light"
+            android:background="@drawable/edittext_border"
+            android:padding="4dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_custom_background"
+        android:backgroundTint="@color/almondColor"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="378dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/email"
+            android:textColor="@color/background_light"
+            android:textSize="20sp"
+            app:fontFamily="@font/abhaya_libre"
+            />
+
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_width="250dp"
+            android:layout_height="67dp"
+            android:layout_weight="2"
+            android:inputType="text"
+            app:fontFamily="@font/alice"
+            android:textSize="20sp"
+            android:textColor="@color/background_light"
+            android:background="@drawable/edittext_border"
+            android:padding="4dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/selectBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_button"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/background_light"
+        app:fontFamily="@font/abhaya_libre"
+        android:padding="10dp"
+        android:background="@drawable/button_shape"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

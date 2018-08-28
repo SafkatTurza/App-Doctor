@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Add Doctor</string>
+    <string name="name">Name</string>
+    <string name="details">Details</string>
+    <string name="appointment_time">Appointment Time</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email ID</string>
+    <string name="select_button">Submit</string>
+    <string name="doctor_name">Doctor Name</string>
+    <string name="details_info_2ndLayout">Details: </string>
+    <string name="date">Date: </string>
+    <string name="phone_no">Phone: </string>
+    <string name="email_id">Email ID: </string>
+</resources>
